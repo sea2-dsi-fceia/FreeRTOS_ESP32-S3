@@ -4,4 +4,7 @@ CONFIG_BLINK_LED_STRIP=y
 # ESP32-S3-DevKitC v1.1 uses GPIO38 for the on-board LED
 # ESP32-S3-DevKitC v1.0 uses GPIO48 for the on-board LED
 #
-CONFIG_BLINK_GPIO=38
+# SEA II - DSI - EIE - FCEIA - UNR:
+# la placa de la catedra (ESP32-S3 N16R8) tiene el LED RGB en el GPIO 48
+#
+CONFIG_BLINK_GPIO=48
